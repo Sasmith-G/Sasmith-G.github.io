@@ -123,6 +123,12 @@ export const projects: Project[] = [
       { icon: "/tech/chroma.svg", name: "Chroma DB" },
       { icon: "/tech/groq.svg", name: "Groq API" },
     ],
+    gallery: [
+      "/projects/6/similar-queries.png",
+      "/projects/6/final-answer.png",
+      "/projects/6/source-page.png",
+      "/projects/6/source-figure.png",
+    ],
   },
   {
     id: "7",
@@ -139,6 +145,12 @@ export const projects: Project[] = [
       { icon: "/tech/tailwindcss.svg", name: "TailwindCSS" },
       { icon: "/tech/ollama.svg", name: "Ollama" },
       { icon: "/tech/mongodb.svg", name: "MongoDB" },
+    ],
+    gallery: [
+      "/projects/7/dashboard.png",
+      "/projects/7/inbox.png",
+      "/projects/7/events.png",
+      "/projects/7/pricing.png",
     ],
   },
   {
@@ -204,6 +216,12 @@ export const projects: Project[] = [
       { icon: "/tech/nodejs.svg", name: "Node.js" },
       { icon: "/tech/expressjs.svg", name: "Express.js" },
       { icon: "/tech/mongodb.svg", name: "MongoDB" },
+    ],
+    gallery: [
+      "/projects/10/subjects.png",
+      "/projects/10/subject-page.png",
+      "/projects/10/teacher-dashboard.png",
+      "/projects/10/query-dashboard.png",
     ],
   },
   {
