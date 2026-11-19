@@ -31,7 +31,6 @@ export const projects: Project[] = [
     category: "AI Medical RAG System",
     title: "MedGPT",
     cover: "/projects/3/landing.png",
-    secondImage: "/projects/3/demo.png",
     what: "MedGPT is a knowledge graph-augmented medical RAG system designed for factual medical question answering with reduced hallucinations. The platform constructs a knowledge graph from medical textbooks, stores embeddings in Pinecone, and uses Neo4j for graph-based retrieval, enabling multi-hop reasoning over medical knowledge.",
     why: "Built to address the challenge of hallucinations in medical AI systems by grounding responses in verified medical literature. The project combines semantic search with knowledge graph traversal to provide accurate, contextual medical information with proper citations.",
     how: "Developed using Next.js, FastAPI, Neo4j, Pinecone, and AWS (Amplify, EC2).\nImplemented knowledge graph construction pipeline with NER and entity extraction.\nIntegrated Gemini and Mistral APIs for multi-hop reasoning and response generation.\nUtilized NextAuth and DynamoDB for secure authentication and data management.",
@@ -46,6 +45,7 @@ export const projects: Project[] = [
       { icon: "/tech/neo4j.svg", name: "Neo4j" },
     ],
     gallery: [
+      "/projects/3/demo.png",
       "/projects/3/pipeline.png",
       "/projects/3/architecture.png",
     ],
